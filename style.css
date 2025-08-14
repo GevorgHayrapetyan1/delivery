@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Ubuntu", sans-serif;
+}
+.section-padding{
+    padding: 50px 0;
+    background-color: white;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    background-color: white;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px 0;
+}
+.p-3{
+    padding: 30px 0;
+}
+.j-between{
+    justify-content: space-between;
+}
+.vh-50{
+    height: 50vh;
+}
+.green-text{
+    color: #56AF58;
+    text-decoration: underline;
+}
+
+.title{
+    font-size: 70px;
+    padding: 50px 0;
+}
+.text {
+    font-size: 16px;
+    text-align: center;
+}
+.main-button{
+     display: block;
+     margin: auto;
+     padding: 10px 50px;
+     font-size: 16px;
+     background-color: #56AF58;
+     color: white;
+     border-radius: 8px;
+     border: none;
+}
+.text-field{
+    width: 45%;
+    margin: auto;
+
+}
+.img-fluid{
+    width: 45%;
+    height: 300px;
+    object-fit: contain;
+}
+.card{
+    width: 33%;
+    background-color: whitesmoke;
+
+    .title{
+        font-size: 16px;
+        padding: 10px;
+    }
+    img{
+        width: 100%;
+    }
+    .text{
+        padding: 20px;
+    }
+}
+.card-2{
+    width: 30%;
+    img{
+       width: 30%;
+        display: block;
+        margin: auto;
+    }
+    .title{
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+    .text{
+        font-size: 15px;
+        text-align: center;
+        padding: 10px;
+    }
+}
